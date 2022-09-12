@@ -1,8 +1,10 @@
 use gst::glib;
 
 mod rgb2gray;
+mod rsbasic;
 
 fn plugin_init(plugin: &gst::Plugin) -> Result<(), glib::BoolError> {
+    rsbasic::register(plugin)?;
     rgb2gray::register(plugin)?;
     Ok(())
 }
