@@ -2,8 +2,8 @@
 
 ```shell
 brew install gstreamer
-brew install gstreamer-plugins-base
-brew install gstreamer-plugins-good
+brew install gst-plugins-base
+brew install gst-plugins-good
 ```
 
 # Build
